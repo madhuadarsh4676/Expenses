@@ -1,0 +1,40 @@
+html {
+  width: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #3a3a3a;
+}
+#user-nametag {
+  margin: 0;
+  padding: 0;
+}
+#usermain {
+  width: 50%;
+  height: 98%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px rgb(195, 57, 170);
+}
+#user-form {
+  align-self: flex-start;
+  display: contents;
+  justify-items: center;
+  align-items: center;
+}
+.user-class {
+  border: none;
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  outline: invert;
+  padding: 0px 0px 3px 3px;
+}
